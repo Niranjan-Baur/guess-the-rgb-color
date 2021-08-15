@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Color Game</title>
+    <link rel="stylesheet" href="colorGame.css">
+    <link rel="stylesheet" href="hii.js">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400&display=swap" rel="stylesheet">
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous"> -->
+</head>
+
+<body>
+    <span>
+        <h1>The Great RGB Color Game
+    </span><br><span id="colorDisplay">RGB</span><br> Color Game</h1>
+    </span>
+
+
+    <div id="stripe">
+        <button id="reset">New colors</button>
+        <span id="message"></span>
+        <button id="easyBtn">Easy</button>
+        <button id="hardBtn">Hard</button>
+        <button id="superhardBtn" class="selected">Super Hard</button>
+    </div>
+    <!-- all color square is here -->
+    <div id="please">
+        <p>Please read the "Notes" below, before play the Game.</p>
+    </div>
+    <section>
+        <div id="container">
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square right"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square right"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square right"></div>
+        </div>
+    </section>
+    <div id="note">
+        <p>
+            <Span>Notes : </Span><br> <br> How to play the RGB Guesing Game?
+            <ol>
+                <li>Choose desire mode. Three Mode are Present ( Easy , Hard and Super Hard ).</li>
+                <li>Now, look at the RGB() number at the top.</li>
+                <li>Then try to guess the actual color according to the RGB number.</li>
+            </ol>
+        </p>
+    </div>
+
+    <div id="footer">
+        <footer>
+            <div class="logos">
+                <a class="logo" href="https://www.facebook.com/niranjan.baur"><img src="https://img.icons8.com/ios-filled/30/000000/facebook--v1.png" /></a>
+                <a class="logo" href="https://www.linkedin.com/in/niranjan-baur-647942209/"><img src="https://img.icons8.com/ios-filled/30/000000/linkedin.png" /></a>
+                <a class="logo" href="https://developers.google.com/profile/u/117196683765897983351"><img src="https://img.icons8.com/ios-filled/27/000000/google-logo.png" /></a>
+                <a class="logo" href="https://www.instagram.com/_niranjan__baur_/"><img src="https://img.icons8.com/ios-filled/30/000000/instagram-new.png" /></a>
+            </div>
+            <p id="copyright">© 2020-2021 All coryright reserved || Made by Niranjan Baur</p>
+        </footer>
+    </div>
+    <script src="colorGame.js"></script>
+</body>
+
+</html>
