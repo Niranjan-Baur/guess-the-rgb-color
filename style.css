@@ -103,7 +103,7 @@
         }
         
         #footer {
-            position: static;
+            position: absolute;
             bottom: 0;
             height: 80px;
             width: 100%;
