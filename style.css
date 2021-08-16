@@ -107,7 +107,7 @@
         }
         
         #footer {
-            position: static;
+            position: relative;
             bottom: 0;
             height: 80px;
             width: 100%;
