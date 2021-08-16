@@ -47,6 +47,10 @@
             border-bottom: 1px solidwhite;
         }
         
+        #note ol span {
+            color: rgb(62, 235, 168);
+        }
+        
         ol {
             color: white;
         }
@@ -103,7 +107,7 @@
         }
         
         #footer {
-            position: absolute;
+            position: static;
             bottom: 0;
             height: 80px;
             width: 100%;
